@@ -10,7 +10,7 @@ body {
 }
 .wrapper {
   max-width: 500px;
-  padding: 0 20px;
+  padding: 0 30px;
   margin: 40px auto;
   color: #eaf4fd;
 }
@@ -27,7 +27,7 @@ h4 {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 1px;
-  margin: 20px 0;
+  margin: 30px 0;
 }
 .input-box {
   margin-bottom: 20px;
@@ -49,11 +49,12 @@ select {
   border-bottom: 1px solid #eaf4fd;
   text-transform: capitalize;
   outline: none;
+  letter-spacing: 2px;
 }
 input::placeholder {
   color: #eaf4fd;
   text-transform: capitalize;
-  opacity: 0.4;
+  opacity: 0.6;
   font-weight: thin;
   font-family: inherit;
   letter-spacing: 2px;
@@ -83,7 +84,7 @@ input[type="radio"] {
   margin-right: 3px;
 }
 input[type="radio"] + label {
-  padding-right: 10px;
+  padding-right: 7px;
   letter-spacing: 2px;
   text-transform: capitalize;
   font-style: normal;
